@@ -14,28 +14,12 @@ variable "resourceGroup" {
    default     = "myrgtestman"
 }
 
-/*
 variable "subscriptionId" {}
 variable "clientId" {}
 variable "clientSecret" {}
 variable "resourceGroup" {}
 variable "tenantId" {}
-*/
-  
 
-variable "subscriptionId" {}
-
-variable "client_id" {
-  default =""
-  }
-
-variable "client_secret" {
-  default =""
-  }
-
-variable "tenant_id" {
-  default =""
-  }
 
 
 variable "vmSize" {
