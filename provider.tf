@@ -1,6 +1,6 @@
 provider "azurerm" {
   features {}
-  #subscription_id = "208fa6bb-143c-4bbd-995e-e4e524978ba3"
+  subscription_id = var.subscriptionId
   /*
   subscription_id = "${var.subscriptionId}"  
   client_id       = "${var.clientId}"
