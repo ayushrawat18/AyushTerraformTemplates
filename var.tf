@@ -22,6 +22,9 @@ variable "resourceGroup" {}
 variable "tenantId" {}
 */
   
+
+variable "subscriptionId" {}
+
 variable "client_id" {
   default =""
   }
