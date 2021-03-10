@@ -161,16 +161,4 @@ variable "hostname" {
 }
 
 
-#File =metadata.snc
-"Metadata": {
-          "SNC::Parameter::Metadata": {
-               "resourceGroup":{
-                     "datasource":"ServiceNow::Pools::ResourceGroupPool.getByLDC"
-                },
-		"vmSize":{
-              	      "datasource":"ServiceNow::Pools::ComputeTemplatePool.getTemplateNameByLDC"
-                }
-
-            }
-    }
 
