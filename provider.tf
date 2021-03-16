@@ -1,5 +1,4 @@
-{"region":"","ami":"ami-6bcfc42e","instance_type":"t2.xlarge"}
-.,.,.,.,.,
+
 #Directory = /jagadt80/tf-az-poc::main
 #File1 = main.tf
 #File2 = outputs.tf
