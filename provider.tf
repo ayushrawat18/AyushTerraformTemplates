@@ -187,7 +187,7 @@ default = [
 variable "mandatory_tag_value" {
 type = list
 default = [
-    "Nikolai Lakovic",
+    "NikolaiLakovic",
     "99999",
     "propod",
     "WPP",
