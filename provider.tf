@@ -4,19 +4,6 @@
 #File3 = template.tf
 #File4 = var.tf
 
-#File =metadata.snc
-"Metadata": {
-          "SNC::Parameter::Metadata": {
-               "resourceGroup":{
-                     "datasource":"ServiceNow::Pools::ResourceGroupPool.getByLDC"
-                },
-		"vmSize":{
-              	      "datasource":"ServiceNow::Pools::ComputeTemplatePool.getTemplateNameByLDC"
-                }
-
-            }
-    }
-
 #File =provider.tf
 provider "azurerm" {
   
